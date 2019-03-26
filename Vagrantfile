@@ -6,9 +6,6 @@
 # backwards compatibility). Please don't change it unless you know what
 # you're doing.
 
-require 'yaml'
-$vms = YAML.load_file('vms.yml')
-
 # Make sure the vagrant ignition plugin is installed
 required_plugins = %w(vagrant-ignition)
 
